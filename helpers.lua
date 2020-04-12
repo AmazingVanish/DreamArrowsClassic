@@ -30,11 +30,11 @@ function delay(tick)
 end
 
 function updateMinimapArrowTexture()
-    Minimap:SetPlayerTexture("Interface\\AddOns\\DreamArrows\\arrows\\" .. Color .. "\\arrow" .. Size)
+    Minimap:SetPlayerTexture("Interface\\AddOns\\DreamArrowsClassic\\arrows\\" .. Color .. "\\arrow" .. Size)
 end
 
 function updateWorldMapArrowTexture()
-    UserPositionFrame:SetPinTexture("player", "Interface\\AddOns\\DreamArrows\\arrows\\" .. Color .. "\\arrow" .. WSize)
+    UserPositionFrame:SetPinTexture("player", "Interface\\AddOns\\DreamArrowsClassic\\arrows\\" .. Color .. "\\arrow" .. WSize)
 end
 
 function waitUpdateMinimapArrowTexture(_d)

@@ -22,7 +22,7 @@ local frame = CreateFrame("FRAME"); -- Need a frame to respond to events
     frame:RegisterEvent("PLAYER_LOGIN");
 
 function frame:OnEvent(event, arg1)
-    if event == "ADDON_LOADED" and arg1 == "DreamArrows" then
+    if event == "ADDON_LOADED" and arg1 == "DreamArrowsClassic" then
         -- Our saved variables are ready at this point. If there are none, all variables will set to nil.
         if Size == nil or WSize == nil or Color == nil or Toggle == nil then -- first time loading addon
             print("First time running Dream Arrows Classic. Setting things up...")
@@ -48,11 +48,11 @@ frame:SetScript("OnEvent", frame.OnEvent);
 --  DA02: Functions                                                 --
 ----------------------------------------------------------------------
 local function updateMinimapArrowTexture()
-    Minimap:SetPlayerTexture("Interface\\AddOns\\DreamArrows\\arrows\\" .. Color .. "\\arrow" .. Size)
+    Minimap:SetPlayerTexture("Interface\\AddOns\\DreamArrowsClassic\\arrows\\" .. Color .. "\\arrow" .. Size)
 end
 
 local function updateWorldMapArrowTexture()
-    UserPositionFrame:SetPinTexture("player", "Interface\\AddOns\\DreamArrows\\arrows\\" .. Color .. "\\arrow" .. WSize)
+    UserPositionFrame:SetPinTexture("player", "Interface\\AddOns\\DreamArrowsClassic\\arrows\\" .. Color .. "\\arrow" .. WSize)
 end
 
 local function waitUpdateMinimapArrowTexture(_d)
