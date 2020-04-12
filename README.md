@@ -4,9 +4,9 @@ Set the color, size and visibility of the minimap and world map arrows. For Worl
 
 ## Available Commands
 
-/da help - show the help message listing available commands
-/da color [amethyst, aquamarine, citrine, gold, jade, obsidian, ruby, silver] - modify the color of the arrows
-/da flush - re-set the arrow textures
-/da size [1-40] - modify the size of the minimap arrow (e.g. /da size 20)
-/da wsize [1-40] - modify the size of the world map arrow (e.g. /da wsize 20)
-/da toggle [0-1] - toggle showing the world map arrow (e.g. to hide the arrow use /da toggle 0)
+  * /da help - show the help message listing available commands
+  * /da color [amethyst, aquamarine, citrine, gold, jade, obsidian, ruby, silver] - modify the color of the arrows
+  * /da flush - re-set the arrow textures
+  * /da size [1-40] - modify the size of the minimap arrow (e.g. /da size 20)
+  * /da wsize [1-40] - modify the size of the world map arrow (e.g. /da wsize 20)
+  * /da toggle [0-1] - toggle showing the world map arrow (e.g. to hide the arrow use /da toggle 0)
