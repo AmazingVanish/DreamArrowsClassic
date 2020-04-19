@@ -1,10 +1,17 @@
 # Changelog
 
+## 1.5.1
+
+### Bug Fixes / Improvements
+
+- FIXED: Arrows not loading on startup in some cases
+
 ## 1.5.0
 
 ### General
 
 - Restructured the project to make it cleaner
+- Added reset command to return to the addon defaults
 - Added 4 new styles of arrows to choose from (original is 'orb'):
     - arrow (Player Arrow Only)
     - hollow (No-fill arrow with a glow)
