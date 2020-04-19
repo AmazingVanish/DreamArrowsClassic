@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
---  Dream Arrows Classic 1.5.0 (April 18, 2020)                     --
+--  Dream Arrows Classic 1.5.1 (April 19, 2020)                     --
 ----------------------------------------------------------------------
 --                                                                  --
 --  01:SetUp            02:Functions            03:Commands         --   
@@ -18,8 +18,6 @@ local frame = CreateFrame("FRAME"); -- Need a frame to respond to events
     frame:RegisterEvent("ADDON_LOADED"); -- Fired when saved variables are loaded
     frame:RegisterEvent("PLAYER_LOGOUT"); -- Fired when saved variables are loaded
     frame:RegisterEvent("PLAYER_LOGIN");
-
-frame:SetScript("OnEvent", frame.OnEvent);
 
 ----------------------------------------------------------------------
 --  DA02: Functions                                                 --
@@ -91,6 +89,8 @@ function waitUpdateMinimapArrowTexture(_d)
     delay(_d)
     updateMinimapArrowTexture()
 end
+
+frame:SetScript("OnEvent", frame.OnEvent);
 
 local function ColorUsage()
     print(' /da color [amethyst, aquamarine, citrine, gold, jade, obsidian, ruby, silver] - modify the color of the arrows')

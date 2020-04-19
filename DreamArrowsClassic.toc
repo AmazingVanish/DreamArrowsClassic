@@ -1,10 +1,10 @@
 ## Interface: 11304
 
-## Title: |cFF0099FFDream Arrows|r |cffFFFFFFClassic|r 1.5.0
+## Title: |cFF0099FFDream Arrows|r |cffFFFFFFClassic|r 1.5.1
 ## Notes: Set the color, style, size, and visibility of the minimap and world map arrows. For World of Warcraft Classic.
 
 ## Author: Vanish
-## Version: 1.5.0
+## Version: 1.5.1
 
 ## SavedVariables: Color, Size, Style, Toggle, WSize
 ## DefaultState: enabled
