@@ -1,15 +1,20 @@
 ## Interface: 11304
-## Title: |cFF0099FFDream|r Arrows |cffFFFFFFClassic|r
+
+## Title: |cFF0099FFDream Arrows|r |cffFFFFFFClassic|r 1.5.0
+## Notes: Set the color, style, size, and visibility of the minimap and world map arrows. For World of Warcraft Classic.
+
 ## Author: Vanish
-## Notes: Set the color, size and visibility of the minimap and world map arrows. For World of Warcraft Classic.
+## Version: 1.5.0
+
+## SavedVariables: Color, Size, Style, Toggle, WSize
 ## DefaultState: enabled
 ## LoadOnDemand: 0
-## Version: 1.0.0
-## X-Category: Map
-## X-Website: http://dscape-llc.com/
+
+## X-Website: https://github.com/amazingvanish/dreamarrowsclassic
 ## X-eMail: chris.vancleve@dscape-llc.com
+## X-Category: Map
+## X-Curse-Project-ID: 375206
+## X-WoWI-ID: 25551
 
-## SavedVariables: Color, Size, Strata, Toggle, WSize
 
-helpers.lua
-main.lua
+Dream_Arrows_Classic.lua
